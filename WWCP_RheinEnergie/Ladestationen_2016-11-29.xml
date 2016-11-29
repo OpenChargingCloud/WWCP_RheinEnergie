@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ladestationen>
+  <standort name="TankE - TÜV Rheinland" kurzbezeichnung="TUEV1" strasse="Konstantin-Wille-Straße" hausnr="ggü. 1" plz="51105" Ort="Köln" stadtteil="Humboldt/Gremberg" kreis="Köln" land="DE" latitude="50.923715" longitude="6.991864" hoehe="49" standortbeschreibung="Am Grauen Stein " webseite="http://www.rheinenergie.com/TankEn" kommentar="Aufgrund von Umzugsarbeiten beim TÜV Rheinland kann es bis April zu Einschränkungen beim Zugang zur Ladestation kommen. Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung" betreiber="RheinEnergie AG" betreiberid="REK" partner="TÜV Rheinland AG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00001" ID="00001" status="In Betrieb" inbetriebnahme="23.04.2013" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00001001" lage="rechts" access="Öffentlich" sms_id="1R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00001002" lage="links" access="Öffentlich" sms_id="1L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="Solar-TankE - RVK Meckenheim" kurzbezeichnung="RVKME" strasse="Kalkofenstraße" hausnr="2" plz="53340" Ort="Meckenheim" stadtteil="Meckenheim" kreis="Rhein-Sieg-Kreis" land="DE" latitude="50.627538" longitude="7.011032" standortbeschreibung="Auf abgesperrtem RVK-Gelände." webseite="http://www.rheinenergie.com/TankEn" kommentar="Station im SolarCarport - auf Nachfrage nutzbar; Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung" betreiber="RheinEnergie AG" betreiberid="REK" partner="RVK Regionalverkehr Köln GmbH" stoerhotline="0221 34645600" oeffnungszeiten="Mo. - Fr. 06:00 - 19:00 Uhr; Sa., So. und Feiertags geschlossen" zweiviersieben="false">
+    <station evse_ID="DEREKE00004" ID="00004" status="In Betrieb" inbetriebnahme="09.04.2013" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" parkgebuehren="2 Euro pro Stunde; 15 Euro pro Tag" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00004002" lage="links" access="Halböffentlich" sms_id="4L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00004001" lage="rechts" access="Halböffentlich" sms_id="4R ">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Flughafen Köln Bonn P2" kurzbezeichnung="CGN01" strasse="Kennedystraße" plz="51147" Ort="Köln" stadtteil="Grengel" kreis="Köln" land="DE" latitude="50.879826" longitude="7.119269" hoehe="65" anfahrtsbeschreibung="Folgen Sie den Hinweisschildern Richtung Abflug Terminal 2. Die Zufahrt erfolgt über den Kurzzeitparkplatz durch die Schranken vor Terminal 2 (10 Minuten Kulanzzeit für Durchfahrt). Die TankE befindet sich auf dem Dach von Parkhaus 2. Die Zufahrt durch Parkhaus 2 ist allerdings nicht möglich." webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung" betreiber="RheinEnergie AG" betreiberid="REK" partner="Flughafen Köln/Bonn GmbH" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00006" ID="00006" status="In Betrieb" inbetriebnahme="27.06.2013" fahrzeugklasse="Vierrad" gelaende="Parkhaus" gebaeudeebene="Ebene 6" deckenhoehe="190" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true" lage="linke Station">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00006001" lage="rechts" access="Öffentlich" sms_id="6R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+    <station evse_ID="DEREKE00007" ID="00007" status="In Betrieb" inbetriebnahme="27.06.2013" fahrzeugklasse="Vierrad" gelaende="Parkhaus" gebaeudeebene="Ebene 6" deckenhoehe="190" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true" lage="rechte Station">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00007002" lage="links" access="Öffentlich" sms_id="7L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00007001" lage="rechts" access="Öffentlich" sms_id="7R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Park &amp; Ride KVB Weiden West" kurzbezeichnung="KVBWW" strasse="Aachener Straße" hausnr="1420" plz="50859" Ort="Köln" stadtteil="Weiden" kreis="Köln" land="DE" latitude="50.93951" longitude="6.815948" hoehe="59" anfahrtsbeschreibung="Ecke Aachener Str. &amp; Bonnstr.  " standortbeschreibung="Direkt am S-Bahnhof Köln-Weiden West" webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung " betreiber="RheinEnergie AG" betreiberid="REK" partner="Kölner Verkehrs-Betriebe AG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00010" ID="00010" status="In Betrieb" inbetriebnahme="19.07.2013" fahrzeugklasse="Vierrad" gelaende="Öffentlicher Parkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true" lage="linke Säule">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00010002" lage="links" access="Öffentlich" sms_id="10L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00010001" lage="rechts" access="Öffentlich" sms_id="10R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+    <station evse_ID="DEREKE00011" ID="00011" status="In Betrieb" inbetriebnahme="19.07.2013" fahrzeugklasse="Vierrad" gelaende="Öffentlicher Parkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true" lage="mittlere Säule">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00011002" lage="links" access="Öffentlich" sms_id="11L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00011001" lage="rechts" access="Öffentlich" sms_id="11R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+    <station evse_ID="DEREKE00012" ID="00012" status="In Betrieb" inbetriebnahme="19.07.2013" fahrzeugklasse="Vierrad" gelaende="Öffentlicher Parkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true" lage="rechte Säule">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00012002" lage="links" access="Öffentlich" sms_id="12L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00012001" lage="rechts" access="Öffentlich" sms_id="12R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - e-WOLF Frechen" kurzbezeichnung="EWOLF" strasse="Ernst-Heinrich-Geist Str." hausnr="5" plz="50226" Ort="Frechen" kreis="Rhein-Erft-Kreis" land="DE" latitude="50.907732" longitude="6.820286" hoehe="70" webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung" betreiber="RheinEnergie AG" betreiberid="REK" partner="e-WOLF GmbH" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00013" ID="00013" status="In Betrieb" inbetriebnahme="31.03.2013" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true" lage="linke Station">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00013002" lage="links" access="Halböffentlich" sms_id="13L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00013001" lage="rechts" access="Halböffentlich" sms_id="13R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - PSA-Deutschlandzentrale" kurzbezeichnung="PSADE" strasse="Edmund-Rumpler-Str." hausnr="4" plz="51149" Ort="Köln" stadtteil="Gremberghoven" kreis="Köln" land="DE" latitude="50.913146" longitude="7.053356" hoehe="51" webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung" betreiber="RheinEnergie AG" betreiberid="REK" partner="PSA Peugeot Citroën SA" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00015" ID="00015" status="In Betrieb" inbetriebnahme="26.08.2013" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true" lage="linke Station">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00015002" lage="links" access="Halböffentlich" sms_id="15L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00015001" lage="rechts" access="Halböffentlich" sms_id="15R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+    <station evse_ID="DEREKE00016" ID="00016" status="In Betrieb" inbetriebnahme="26.08.2013" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true" lage="rechte Station">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00016002" lage="links" access="Halböffentlich" sms_id="16L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00016001" lage="rechts" access="Halböffentlich" sms_id="16R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Parkhaus Kreissparkasse Köln" kurzbezeichnung="KSKK1" strasse="Richmodstraße" hausnr="9-11" plz="50667" Ort="Köln" stadtteil="Neumarkt" kreis="Köln" land="DE" latitude="50.937187" longitude="6.947557" hoehe="65" anfahrtsbeschreibung="Parkhaus-Zufahrt über Richmodstr. 9-11" standortbeschreibung="In der Einfahrt des Parkhauses der KSK Regional-Filiale Neumarkt noch vor der Schranke." webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung" betreiber="RheinEnergie AG" betreiberid="REK" partner="Kreissparkasse Köln" stoerhotline="0221 34645600" oeffnungszeiten="Mo. - Fr. 07:30 - 21:00 Uhr; Sa. 07:00 - 20:00 Uhr; So. und Feiertags geschlossen" zweiviersieben="false">
+    <station evse_ID="DEREKE00017" ID="00017" status="In Betrieb" inbetriebnahme="03.09.2013" fahrzeugklasse="Vierrad" gelaende="Parkhaus" parkgebuehren="vorerst kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00017002" lage="links" access="Öffentlich" sms_id="17L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00017001" lage="rechts" access="Öffentlich" sms_id="17R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Volkswagen Zentrum Köln-Mitte" kurzbezeichnung="VWFRO" strasse="Fröbelstraße" hausnr="15" plz="50823" Ort="Köln" stadtteil="Ehrenfeld" kreis="Köln" land="DE" latitude="50.944814" longitude="6.915828" hoehe="51" webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung " betreiber="RheinEnergie AG" betreiberid="REK" partner="Autohaus Jacob Fleischhauer GmbH &amp; Co. KG " stoerhotline="0221 34645600" oeffnungszeiten="Mo. - Fr. 07:15 - 18:30 Uhr; Sa. 08:00 - 14:00 Uhr; So. geschlossen " zweiviersieben="false">
+    <station evse_ID="DEREKE00018" ID="00018" status="In Betrieb" inbetriebnahme="13.09.2013" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00018002" lage="links" access="Halböffentlich" sms_id="18L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00018001" lage="rechts" access="Halböffentlich" sms_id="18R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Kaufhof Köln-Nippes" kurzbezeichnung="KAUF1" strasse="Neusser Str." hausnr="242" plz="50733" Ort="Köln" stadtteil="Nippes" kreis="Köln" land="DE" latitude="50.963081" longitude="6.955304" hoehe="53" anfahrtsbeschreibung="Zugang über Wilhelmstr. ggü. 37 " standortbeschreibung="direkt hinter der Filiale  " webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung " betreiber="RheinEnergie AG" betreiberid="REK" partner="Kaufhof Köln-Nippes" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00020" ID="00020" status="In Betrieb" inbetriebnahme="07.10.2013" fahrzeugklasse="Vierrad" gelaende="Öffentlicher Parkplatz" parkgebuehren="1,50 Euro pro Stunde, für Kunden weniger" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00020002" lage="links" access="Halböffentlich" sms_id="20L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00020001" lage="rechts" access="Halböffentlich" sms_id="20R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - SoccerWorld Lövenich" kurzbezeichnung="SWLOV" strasse="Ottostraße" hausnr="7" plz="50859" Ort="Köln" stadtteil="Lövenich" kreis="Köln" land="DE" latitude="50.949679" longitude="6.840067" anfahrtsbeschreibung="Von der Aachener Straße in Höhe Einkaufszentrum Weiden in die Goethestraße einbiegen; diese wird in der Unterführung des Bahnhofs Lövenich zur Brauweilerstraße; weiter der Brauweilerstraße folgen und nach ca. 500m hinter der Tankstelle rechts in die Kölner Straße einbiegen; nach ca. 800m links in die Ottostraße fahren und am Ende der Straße haben Sie die SoccerWorld Köln erreicht." webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung" betreiber="RheinEnergie AG" betreiberid="REK" partner="Indoor Soccer Wessels, Köln GmbH" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00055" ID="00055" status="In Betrieb" inbetriebnahme="09.07.2014" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00055002" lage="links" access="Öffentlich" sms_id="55L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00055001" lage="rechts" access="Öffentlich" sms_id="55R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Parkhaus Oberpleis" kurzbezeichnung="OBERP" strasse="Dollendorfer Str." hausnr="4" plz="53639" Ort="Königswinter" stadtteil="Oberpleis" kreis="Rhein-Sieg-Kreis" land="DE" latitude="50.710012" longitude="7.276724" hoehe="151" standortbeschreibung="Reservierte Parkplätze im Parkhaus " webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung" betreiber="RheinEnergie AG" betreiberid="REK" partner="Parkhaus Oberpleis" stoerhotline="0221 34645600" oeffnungszeiten="Mo. - Fr. 08:00 - 18:30 Uhr; Sa. 09:00 -  14:00 Uhr; So. und Feiertags geschlossen " zweiviersieben="false">
+    <station evse_ID="DEREKE00026" ID="00026" status="In Betrieb" inbetriebnahme="30.10.2013" fahrzeugklasse="Vierrad" gelaende="Parkhaus" parkgebuehren="0-1 Stunde: 1 Euro; 1-3 Stunden: 1,60 Euro; über 3 Stunden: 2,50 Euro pro Tag " hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00026002" lage="links" access="Öffentlich" sms_id="26L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00026001" lage="rechts" access="Öffentlich" sms_id="26R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - RTL Köln" kurzbezeichnung="RTL01" strasse="Picassoplatz" hausnr="1" plz="50679" Ort="Köln" stadtteil="Deutz" kreis="Köln" land="DE" latitude="50.943511" longitude="6.973142" hoehe="50" anfahrtsbeschreibung="Zufahrt über Auenweg 13" standortbeschreibung="In der Nähe des Bahnhofs &quot;Köln Messe/Deutz&quot; auf RTL Gelände. Bitte an der Schranke mit Hinweis auf die TankE klingeln (24/7 besetzt)." webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung" betreiber="RheinEnergie AG" betreiberid="REK" partner="RTL Television GmbH" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00027" ID="00027" status="In Betrieb" inbetriebnahme="31.10.2013" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true" lage="linke Station">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00027002" lage="links" access="Halböffentlich" sms_id="27L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00027001" lage="rechts" access="Halböffentlich" sms_id="27R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+    <station evse_ID="DEREKE00028" ID="00028" status="In Betrieb" inbetriebnahme="31.10.2013" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true" lage="rechte Station">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00028002" lage="links" access="Halböffentlich" sms_id="28L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00028001" lage="rechts" access="Halböffentlich" sms_id="28R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Butzweiler Stern" kurzbezeichnung="BUTZ1" strasse="Butzweilerhof-Allee" hausnr="2-4" plz="50829" Ort="Köln" stadtteil="Ossendorf" kreis="Köln" land="DE" latitude="50.984414" longitude="6.888776" hoehe="47" anfahrtsbeschreibung="Die Zufahrt zum Gelände erfolgt über die Von-Hünefeld-Straße (Schranke). " standortbeschreibung="Direkt an der Straßenbahnhaltestelle &quot;Sparkasse am Butzweilerhof&quot; (durch Zaun getrennt);   Alternativ-Standort in der Nähe bei Energiebau in der Von-Hühnefeld-Straße 51 (SolarCarport)  " webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung " betreiber="RheinEnergie AG" betreiberid="REK" stoerhotline="0221 34645600" oeffnungszeiten="Der Empfang im Gebäude ist zu den üblichen Bürozeiten (Montags-Freitags 08:00 bis 17:00 Uhr) besetzt. " zweiviersieben="false">
+    <station evse_ID="DEREKE00029" ID="00029" status="In Betrieb" inbetriebnahme="11.12.2013" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" parkgebuehren="kostenlos " hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00029002" lage="links" access="Halböffentlich" sms_id="29L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00029001" lage="rechts" access="Halböffentlich" sms_id="29R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Volkswagen Zentrum Köln" kurzbezeichnung="VWRAD" strasse="Raderberggürtel" hausnr="31" plz="50968" Ort="Köln" stadtteil="Raderberg" kreis="Köln" land="DE" latitude="50.903902" longitude="6.961275" hoehe="51" webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung " betreiber="RheinEnergie AG" betreiberid="REK" partner="Autohaus Jacob Fleischhauer GmbH &amp; Co. KG " stoerhotline="0221 34645600" oeffnungszeiten="Mo. - Fr. 07:15 - 18:30 Uhr; Sa. 08:00 - 14:00 Uhr; So. geschlossen" zweiviersieben="false">
+    <station evse_ID="DEREKE00031" ID="00031" status="In Betrieb" inbetriebnahme="13.12.2013" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00031002" lage="links" access="Halböffentlich" sms_id="31L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00031001" lage="rechts" access="Halböffentlich" sms_id="31R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Gemeindeverwaltung Kürten" kurzbezeichnung="KUERT" strasse="Karlheinz-Stockhausen-Platz" hausnr="1" plz="51515" Ort="Kürten" stadtteil="Kürten" kreis="Rheinisch-Bergischer Kreis" land="DE" latitude="51.052046" longitude="7.266546" hoehe="174" anfahrtsbeschreibung="Marktfeld 1 " standortbeschreibung="Gemeindeverwaltung Kürten " webseite="http://www.rheinenergie.com/TankEn" kommentar="TankE-Karte bei der Gemeindeverwaltung hinteregt; Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung " betreiber="RheinEnergie AG" betreiberid="REK" partner="Gemeindeverwaltung Kürten" stoerhotline="0221 34645600" oeffnungszeiten=" " zweiviersieben="true">
+    <station evse_ID="DEREKE00034" ID="00034" status="In Betrieb" inbetriebnahme="13.03.2014" fahrzeugklasse="Vierrad" gelaende="Öffentlicher Parkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00034002" lage="links" access="Öffentlich" sms_id="34L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00034001" lage="rechts" access="Öffentlich" sms_id="34R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - RheinEnergie Besucherparkplatz" kurzbezeichnung="REBES" strasse="Parkgürtel" hausnr="24" plz="50823" Ort="Köln" stadtteil="Neuehrenfeld" kreis="Köln" land="DE" latitude="50.960907" longitude="6.931016" hoehe="52" standortbeschreibung="Erste Parkplatzreihe auf dem Besucherparkplatz der RheinEnergie." webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung " betreiber="RheinEnergie AG" betreiberid="REK" partner="RheinEnergie AG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00039" ID="00039" status="In Betrieb" inbetriebnahme="13.06.2014" fahrzeugklasse="Vierrad" gelaende="Öffentlicher Parkplatz" parkgebuehren="kostenlos" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="true" lage="erste von rechts">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00039002" lage="links" access="Öffentlich" sms_id="39L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00039001" lage="rechts" access="Öffentlich" sms_id="39R">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+    <station evse_ID="DEREKE00040" ID="00040" status="In Betrieb" inbetriebnahme="13.06.2014" fahrzeugklasse="Vierrad" gelaende="Öffentlicher Parkplatz" parkgebuehren="kostenlos" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="true" lage="dritte von rechts">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00040002" lage="links" access="Öffentlich" sms_id="40L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00040001" lage="rechts" access="Öffentlich" sms_id="40R">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+    <station evse_ID="DEREKE00041" ID="00041" status="In Betrieb" inbetriebnahme="13.06.2014" fahrzeugklasse="Vierrad" gelaende="Öffentlicher Parkplatz" parkgebuehren="kostenlos" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="true" lage="sechste von rechts">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00041002" lage="links" access="Öffentlich" sms_id="41L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00041001" lage="rechts" access="Öffentlich" sms_id="41R">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+    <station evse_ID="DEREKE00042" ID="00042" status="In Betrieb" inbetriebnahme="13.06.2014" fahrzeugklasse="Vierrad" gelaende="Öffentlicher Parkplatz" parkgebuehren="kostenlos" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="true" lage="fünfte von rechts">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00042002" lage="links" access="Öffentlich" sms_id="42L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00042001" lage="rechts" access="Öffentlich" sms_id="42R">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+    <station evse_ID="DEREKE00043" ID="00043" status="In Betrieb" inbetriebnahme="13.06.2014" fahrzeugklasse="Vierrad" gelaende="Öffentlicher Parkplatz" parkgebuehren="kostenlos" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="true" lage="zweite von rechts">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00043002" lage="links" access="Öffentlich" sms_id="43L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00043001" lage="rechts" access="Öffentlich" sms_id="43R">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+    <station evse_ID="DEREKE00045" ID="00045" status="In Betrieb" inbetriebnahme="13.06.2014" fahrzeugklasse="Vierrad" gelaende="Öffentlicher Parkplatz" parkgebuehren="kostenlos" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="true" lage="achte von rechts">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00045002" lage="links" access="Öffentlich" sms_id="45L">
+          <stecker steckerart="Typ 2" amp="16" volt="230" phases="AC1" max_leistung="3.7" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00045001" lage="rechts" access="Öffentlich" sms_id="45R">
+          <stecker steckerart="Typ 2" amp="16" volt="230" phases="AC1" max_leistung="3.7" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+    <station evse_ID="DEREKE00037" ID="00037" status="In Betrieb" inbetriebnahme="12.08.2014" fahrzeugklasse="Vierrad" gelaende="Öffentlicher Parkplatz" parkgebuehren="kostenlos" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="true" lage="siebte von rechts">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00037002" lage="links" access="Öffentlich" sms_id="37L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00037001" lage="rechts" access="Öffentlich" sms_id="37R">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+    <station evse_ID="DEREKE00038" ID="00038" status="In Betrieb" inbetriebnahme="13.06.2014" fahrzeugklasse="Vierrad" gelaende="Öffentlicher Parkplatz" parkgebuehren="kostenlos" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="true" lage="vierte von rechts">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00038002" lage="links" access="Öffentlich" sms_id="38L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00038001" lage="rechts" access="Öffentlich" sms_id="38R">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+    <station evse_ID="DEREKE00044" ID="00044" status="Außer Betrieb" inbetriebnahme="13.06.2014" ausserbetriebnahme="03.11.2014" fahrzeugklasse="Vierrad" gelaende="Öffentlicher Parkplatz" parkgebuehren="kostenlos" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="true" lage="achte von rechts">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00044002" lage="links" access="Öffentlich" sms_id="44L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00044001" lage="rechts" access="Öffentlich" sms_id="44R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Lindlar Kölner Straße" kurzbezeichnung="LIND2" strasse="Kölner Straße" hausnr="neben 13" plz="51789" Ort="Lindlar" stadtteil="Lindlar" kreis="Oberbergischer Kreis" land="DE" latitude="51.01824" longitude="7.374261" webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung " betreiber="RheinEnergie AG" betreiberid="REK" partner="Gemeinde Lindlar" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00054" ID="00054" status="In Betrieb" inbetriebnahme="04.06.2014" fahrzeugklasse="Vierrad" gelaende="Parkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00054002" lage="links" access="Öffentlich" sms_id="54L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00054001" lage="rechts" access="Öffentlich" sms_id="54R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - AXA" kurzbezeichnung="AXA01" strasse="Colonia-Allee" hausnr="10-20" plz="51067" Ort="Köln" stadtteil="Holweide" kreis="Köln" land="DE" latitude="50.963563" longitude="7.051716" standortbeschreibung="Der Standort befindet sich an der Zufahrt zum AXA-Besucherparkplatz und ist von der Straße aus gut sichtbar." webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung " betreiber="RheinEnergie AG" betreiberid="REK" partner="AXA Konzern AG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00081" ID="00081" status="In Betrieb" inbetriebnahme="26.05.2015" fahrzeugklasse="Vierrad" parkgebuehren="kostenlos" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="true" lage="linke Ladestation">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00081002" lage="links" access="Halböffentlich" sms_id="81L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00081001" lage="rechts" access="Halböffentlich" sms_id="81R">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+    <station evse_ID="DEREKE00066" ID="00066" status="In Betrieb" inbetriebnahme="26.05.2015" fahrzeugklasse="Vierrad" parkgebuehren="kostenlos" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="true" lage="rechte Ladestation">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00066002" lage="links" access="Halböffentlich" sms_id="66L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00066001" lage="rechts" access="Halböffentlich" sms_id="66R">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+    <station evse_ID="DEREKE00065" ID="00065" status="Außer Betrieb" inbetriebnahme="04.11.2014" fahrzeugklasse="Vierrad" parkgebuehren="kostenlos" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00065002" lage="links" access="Halböffentlich" sms_id="65L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00065001" lage="rechts" access="Halböffentlich" sms_id="65R">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Frouardplatz Lohmar" kurzbezeichnung="SWLOH" strasse="Frouardplatz" plz="53797" Ort="Lohmar" stadtteil="Lohmar" kreis="Rhein-Sieg-Kreis" land="DE" latitude="50.841507" longitude="7.211454" webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung " betreiber="RheinEnergie AG" betreiberid="REK" partner="Stadtwerke Lohmar" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00050" ID="00050" status="In Betrieb" inbetriebnahme="15.05.2014" fahrzeugklasse="Vierrad" gelaende="Öffentlicher Parkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00050002" lage="links" access="Öffentlich" sms_id="50L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00050001" lage="rechts" access="Öffentlich" sms_id="50R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - DLR Hansestraße" kurzbezeichnung="DLRH1" strasse="Hansestraße " hausnr="115" plz="51149" Ort="Köln" stadtteil="Porz" kreis="Köln" land="DE" latitude="50.91278" longitude="7.056672" webseite="http://www.rheinenergie.com/TankEn" betreiber="RheinEnergie AG" betreiberid="REK" partner="Deutsches Zentrum für Luft-  und Raumfahrt e.V." stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00085" ID="00085" status="In Betrieb" inbetriebnahme="08.04.2015" fahrzeugklasse="Vierrad" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true" lage="Parkplatz">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00085002" lage="links" access="Öffentlich" sms_id="85L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00085001" lage="rechts" access="Öffentlich" sms_id="85R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - StuHaus St. Augustin" kurzbezeichnung="STUHA" strasse="Grantham-Allee" hausnr="21" plz="53757" Ort="Sankt Augustin" stadtteil="Mülldorf" kreis="Rhein-Sieg-Kreis" land="DE" latitude="50.778507" longitude="7.181395" webseite="http://www.rheinenergie.com/TankEn" betreiber="RheinEnergie AG" betreiberid="REK" partner="Projektgesellschaft Studentencampus Sankt Augustin GmbH &amp; Co. KG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00087" ID="99999" status="In Betrieb" inbetriebnahme="01.09.2016" fahrzeugklasse="Vierrad" gelaende="Parkplatz" kommentar="Ein Ladepunkt für CarSharing reserviert." hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00087001" lage="rechts" access="Halböffentlich" sms_id="87R">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00087002" lage="links" access="Carsharing" sms_id="87L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Parkhaus Lungengasse " kurzbezeichnung="LUNGE" strasse="Lungengasse" hausnr="ggü. 40" plz="50676" Ort="Köln" stadtteil="Altstadt-Süd" kreis="Köln" land="DE" latitude="50.934986" longitude="6.946149" hoehe="56" standortbeschreibung="Ladestationen stehen zwischen Ein- und Ausfahrt des Parkhauses. " webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung; Rechte Ladestation reserviert für e-flinkster " betreiber="RheinEnergie AG" betreiberid="REK" partner="Contipark Parkgaragen GmbH" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00008" ID="00008" status="In Betrieb" inbetriebnahme="27.06.2013" fahrzeugklasse="Vierrad" gelaende="Parkhaus" gebaeudeebene="Erdgeschoss" parkgebuehren="vorerst kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true" lage="linke Station">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00008002" lage="links" access="Öffentlich" sms_id="8L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00008001" lage="rechts" access="Öffentlich" sms_id="8R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Uni Duisburg-Essen - Essen" kurzbezeichnung="UDEE1" strasse="Universitätsstraße" hausnr="15" plz="45141" Ort="Essen" stadtteil="Nordviertel" kreis="Essen" land="DE" latitude="51.462824" longitude="7.006304" webseite="http://www.rheinenergie.com/TankEn" kommentar="Die TankE ist aufgrund einer Baustelle zur Zeit nicht zugänglich! - Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung" betreiber="RheinEnergie AG" betreiberid="REK" partner="Universität Duisburg-Essen" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00058" ID="00058" status="In Betrieb" inbetriebnahme="19.09.2014" fahrzeugklasse="Vierrad" gelaende="Parkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00058001" lage="rechts" access="Halböffentlich" sms_id="58R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00058002" lage="links" access="Halböffentlich" sms_id="58L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Donnerbachweg - Bornheim" kurzbezeichnung="BORN2" strasse="Donnerbachweg" hausnr="15" plz="53332" Ort="Bornheim" stadtteil="Waldorf" kreis="Rhein-Sieg-Kreis" land="DE" latitude="50.76773" longitude="6.948761" standortbeschreibung="Nur ein Ladepunkt steht öffentlich zur Verfügung." webseite="http://www.rheinenergie.com/TankEn" kommentar="Nur Ladepunkt 88L ist öffentlich verfügbar. Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung" betreiber="RheinEnergie AG" betreiberid="REK" partner="Gemeinde Bornheim" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00088" ID="00088" status="In Betrieb" inbetriebnahme="21.05.2015" fahrzeugklasse="Vierrad" gelaende="Parkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00088002" lage="links" access="Halböffentlich" sms_id="88L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Uni Duisburg-Essen - Duisburg" kurzbezeichnung="UDEDU" strasse="Lotharstraße" hausnr="53" plz="47057" Ort="Duisburg" stadtteil="Neudorf-Nord" kreis="Duisburg" land="DE" latitude="51.430348" longitude="6.799609" hoehe="42" webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung " betreiber="RheinEnergie AG" betreiberid="REK" partner="Universität Duisburg-Essen" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00032" ID="00032" status="In Betrieb" inbetriebnahme="22.01.2014" fahrzeugklasse="Vierrad" gelaende="Parkplatz" parkgebuehren="kostenlos " hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00032002" lage="links" access="Halböffentlich" sms_id="32L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00032001" lage="rechts" access="Halböffentlich" sms_id="32R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Kreissparkasse Köln - St. Augustin" kurzbezeichnung="KSKK2" strasse="Einsteinstraße" hausnr="1" plz="53757" Ort="Sankt Augustin" stadtteil="Menden" kreis="Rhein-Sieg-Kreis" land="DE" latitude="50.787069" longitude="7.184106" standortbeschreibung="Die Ladestationen befinden sich von der Einfahrt zum Parkplatz aus am hinteren Ende, rechts neben dem Gebäude der Kreissparkasse. 3 Ladepunkte sind für E-Fahrzeuge der KSK reserviert, der linke äußere Ladepunkt ist öffentlich zugänglich." webseite="http://www.rheinenergie.com/TankEn" kommentar="Nur Ladepunkt 48L ist öffentlich verfügbar. Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung " betreiber="RheinEnergie AG" betreiberid="REK" partner="Kreissparkasse Köln" stoerhotline="0221 34645600" oeffnungszeiten="Mo. - Fr. von 06:00 Uhr - 20:00 Uhr. " zweiviersieben="false">
+    <station evse_ID="DEREKE00014" ID="00048" status="In Betrieb" inbetriebnahme="24.04.2014" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true" lage="linke Station">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00014002" lage="links" access="Halböffentlich" sms_id="14L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="Solar-TankE - Auto-Strunk Köln" kurzbezeichnung="AST01" strasse="Neusser Str." hausnr="460-474" plz="50733" Ort="Köln" stadtteil="Nippes" kreis="Köln" land="DE" latitude="50.97378" longitude="6.951849" standortbeschreibung="Ladestation im SolarCarport im Innenhof von Auto Strunk" webseite="http://www.rheinenergie.com/TankEn" kommentar="Zugang aktuell nur per RFID-Karte (auch am Empfang ausleihbar), welche auch zum Beenden des Ladevorgangs benötigt wird." betreiber="RheinEnergie AG" betreiberid="REK" partner="Auto-Strunk GmbH" stoerhotline="0221 34645600" oeffnungszeiten="Mo. - Fr. 08:00 - 18:30 Uhr; Sa. 09:00 - 13:00 Uhr; So. 11:00 - 16:00 Uhr" zweiviersieben="false">
+    <station evse_ID="DEREKE00199" ID="00199" status="In Betrieb" inbetriebnahme="10.02.2015" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" parkgebuehren="kostenlos" hersteller="Schneider Electric GmbH" montageart="Ladesäule freistehend" oekostrom="true" lage="SolarCarport">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00199002" lage="links" access="Halböffentlich">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00199001" lage="rechts" access="Halböffentlich">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Erlebnisbauernhof Krewelshof" kurzbezeichnung="KREWE" strasse="Krewelshof" hausnr="1" plz="53797" Ort="Lohmar" stadtteil="Nord" kreis="Rhein-Sieg-Kreis" land="DE" latitude="50.87327" longitude="7.197917" anfahrtsbeschreibung="Sollte die Adresse in Ihrer Karte noch nicht verzeichnet sein dann: An der Burg Sülz 1, 53797 Lohmar " standortbeschreibung="TankE steht auf dem Parkplatz" webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung" betreiber="RheinEnergie AG" betreiberid="REK" partner="Erlebnisbauernhof Krewelshof" stoerhotline="0221 34645600" oeffnungszeiten="Mo. - Sa. 09:00 - 18:30 Uhr;  So. u. Feiertage 10:00 - 18:30 Uhr;   Heiligabend, 1.Weihnachtsfeiertag und Silvester geschlossen. Neujahr ab 12.00 geöffnet.   Öffnungszeiten Krewelshof siehe Webseite (krewelshof.de)" zweiviersieben="false">
+    <station evse_ID="DEREKE30001" ID="99981" status="In Betrieb" inbetriebnahme="12.05.2015" fahrzeugklasse="Zweirad" gelaende="Parkplatz" kommentar="Es handelt sich um Schließfächer mit integrierter Steckdose für Ihr eigenes Ladegerät. Die Schlüssel können im Hofcafé ausgeliehen werden." hersteller="M&amp;M Konzepte GbR" montageart="Ladesäule freistehend" oekostrom="true" lage="rechts neben der Einfahrt">
+      <ladepunkte anz="4">
+        <ladepunkt evse_ID="DEREKE30001004" access="Öffentlich">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <zugang zugangart_1="Schlüssel"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE30001003" access="Öffentlich">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <zugang zugangart_1="Schlüssel"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE30001002" access="Öffentlich">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <zugang zugangart_1="Schlüssel"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE30001001" access="Öffentlich">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <zugang zugangart_1="Schlüssel"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+    <station evse_ID="DEREKE00089" ID="00089" status="In Betrieb" inbetriebnahme="27.04.2015" fahrzeugklasse="Vierrad" gelaende="Parkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true" lage="An der Einfahrt">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00089001" lage="rechts" access="Öffentlich" sms_id="89R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00089002" lage="links" access="Öffentlich" sms_id="89L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Bornheim" kurzbezeichnung="BORN1" strasse="Rathausstraße" hausnr="2" plz="53332" Ort="Bornheim" stadtteil="Roisdorf" kreis="Rhein-Sieg-Kreis" land="DE" latitude="50.757272" longitude="7.004436" anfahrtsbeschreibung="Ecke &quot;Alter Weiher&quot;  " standortbeschreibung="Die Ladepunkte stehen öffentlich zur Verfügung, werden teilweise aber auch von den E-Fahrzeugen der Stadtverwaltung Bornheim genutzt. " webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung " betreiber="RheinEnergie AG" betreiberid="REK" partner="Gemeinde Bornheim" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00052" ID="00052" status="In Betrieb" inbetriebnahme="09.05.2014" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00052002" lage="links" access="Öffentlich" sms_id="52L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00052001" lage="rechts" access="Öffentlich" sms_id="52R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Severinusstraße Hürth" kurzbezeichnung="HRTH1" strasse="Severinusstraße" hausnr="3" plz="50354" Ort="Hürth" stadtteil="Hermülheim " kreis="Rhein-Erft-Kreis" land="DE" latitude="50.877908" longitude="6.887646" standortbeschreibung="Es handelt sich um einen öffentlichen Parkplatz der Stadt Hürth in sichtbarer Nähe zum Autohaus Bautz &amp; Klinkhammer" webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung " betreiber="RheinEnergie AG" betreiberid="REK" partner="Bautz &amp; Klinkhammer GmbH &amp; Co. KG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00080" ID="00080" status="In Betrieb" inbetriebnahme="23.04.2015" fahrzeugklasse="Vierrad" gelaende="Öffentlicher Parkplatz" parkgebuehren="kostenlos" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00080002" lage="links" access="Öffentlich" sms_id="80L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00080001" lage="rechts" access="Öffentlich" sms_id="80R">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+    <station evse_ID="DEREKE70066" ID="70066" status="Außer Betrieb" inbetriebnahme="15.01.2015" ausserbetriebnahme="23.04.2015" fahrzeugklasse="Vierrad" gelaende="Öffentlicher Parkplatz" parkgebuehren="kostenlos" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE70066002" lage="links" access="Öffentlich">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE70066001" lage="rechts" access="Öffentlich">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Procter &amp; Gamble Köln - Pförtner" kurzbezeichnung="PGPFO" strasse="Wilhelm-Mauser-Straße" hausnr="40" plz="50827" Ort="Köln" stadtteil="Bickendorf" kreis="Köln" land="DE" latitude="50.956398" longitude="6.891325" hoehe="48" standortbeschreibung="Die extra PKW-Zufahrt zum Procter &amp; Gamble Firmengelände muss genutzt werden. Ladesäule befindet sich auf dem Besucherparkplatz neben dem Pförtnerhaus.  " webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung . Alternativ ist eine RFID-Karte zum Laden beim Pförtner hinterlegt." betreiber="RheinEnergie AG" betreiberid="REK" partner="Procter &amp; Gamble Manufacturing Cologne GmbH" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00003" ID="00003" status="In Betrieb" inbetriebnahme="01.10.2014" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00003002" lage="links" access="Halböffentlich" sms_id="3L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00003001" lage="rechts" access="Halböffentlich" sms_id="3R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+    <station evse_ID="DEREKE70012" ID="70012" status="Außer Betrieb" inbetriebnahme="05.06.2012" ausserbetriebnahme="01.10.2014" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" parkgebuehren="kostenlos " hersteller="NKT Cables" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE70012002" lage="links" access="Halböffentlich">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE70012001" lage="rechts" access="Halböffentlich">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Köln Marriott Hotel" kurzbezeichnung="MHJOH" strasse="Johannisstraße" hausnr="76-80" plz="50668" Ort="Köln" stadtteil="Altstadt-Nord" kreis="Köln" land="DE" latitude="50.944661" longitude="6.96153" anfahrtsbeschreibung="Zufahrt über Servasgasse." standortbeschreibung="öffentliche Tiefgarage" webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung. Bitte beachten Sie den teilweise schlechten Handy-Empfang in der Tiefgarage." betreiber="RheinEnergie AG" betreiberid="REK" partner="Cologne MH Operating Company GmbH" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00047" ID="00047" status="In Betrieb" inbetriebnahme="16.05.2014" fahrzeugklasse="Vierrad" gelaende="Tiefgarage" deckenhoehe="190" parkgebuehren="2,50 Euro pro Stunde, 25 Euro pro Tag" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00047002" lage="links" stellplatznr="2" access="Öffentlich" sms_id="47L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="16" volt="400" phases="AC3" max_leistung="11" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00047001" lage="rechts" stellplatznr="3" access="Öffentlich" sms_id="47R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="16" volt="400" phases="AC3" max_leistung="11" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Koelnmesse Presseparkplatz" kurzbezeichnung="KMPR1" strasse="Messeplatz" hausnr="1" plz="50679" Ort="Köln" stadtteil="Deutz" kreis="Köln" land="DE" latitude="50.948069" longitude="6.985502" anfahrtsbeschreibung="Die Zufahrt erfolgt über die Deutz-Mülheimer Straße (nahe Hausnummer 115) direkt unterhalb der Zoobrücke." standortbeschreibung="Die Ladestation befindet sich auf dem Presseparkplatz P20a" webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung " betreiber="RheinEnergie AG" betreiberid="REK" partner="Koelnmesse GmbH" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00067" ID="00067" status="In Betrieb" inbetriebnahme="15.01.2015" fahrzeugklasse="Vierrad" gelaende="Messeparkplatz" parkgebuehren="kostenlos" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00067002" access="Halböffentlich" sms_id="67L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00067001" access="Halböffentlich" sms_id="67R">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Rathaus Lindlar" kurzbezeichnung="LIND1" strasse="Borromäusstraße" hausnr="1" plz="51789" Ort="Lindlar" stadtteil="Lindlar" kreis="Oberbergischer Kreis" land="DE" latitude="51.021294" longitude="7.382112" standortbeschreibung="Parkplatz direkt am Pavillon vor der Gemeindeverwaltung. " webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung. Rechter Ladepunkt ist für die Gemeinde reserviert. " betreiber="RheinEnergie AG" betreiberid="REK" partner="Gemeinde Lindlar" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00051" ID="00051" status="In Betrieb" inbetriebnahme="29.04.2014" fahrzeugklasse="Vierrad" gelaende="Parkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00051002" lage="links" access="Öffentlich" sms_id="51L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - BELKAW Kundenparkplatz" kurzbezeichnung="BEL01" strasse="Hermann-Löns-Straße" hausnr="131" plz="51469" Ort="Bergisch Gladbach" stadtteil="Gronau" kreis="Rheinisch-Bergischer Kreis" land="DE" latitude="50.988624" longitude="7.113263" webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung." betreiber="RheinEnergie AG" betreiberid="REK" partner="Bergische Licht-, Kraft- und Wasserwerke (BELKAW) GmbH" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00057" ID="00057" status="In Betrieb" inbetriebnahme="13.08.2014" fahrzeugklasse="Vierrad" gelaende="Kundenparkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00057002" lage="links" access="Öffentlich" sms_id="57L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00057001" lage="rechts" access="Öffentlich" sms_id="57R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - KVB Westforum Besucherparkplatz" kurzbezeichnung="KVBBP" strasse="Scheidtweilerstraße" hausnr="38" plz="50933" Ort="Köln" stadtteil="Braunsfeld" kreis="Köln" land="DE" latitude="50.938688" longitude="6.906852" standortbeschreibung="Ladesäule am Besucherparkplatz direkt vor der KVB Hauptverwaltung." webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung " betreiber="RheinEnergie AG" betreiberid="REK" partner="Kölner Verkehrs-Betriebe AG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00091" ID="00091" status="In Betrieb" inbetriebnahme="10.02.2015" fahrzeugklasse="Vierrad" gelaende="Kundenparkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00091002" lage="links" access="Öffentlich" sms_id="91L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00091001" lage="rechts" access="Öffentlich" sms_id="91R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - ADAC Köln Kalk" kurzbezeichnung="ADAC1" strasse="Erna-Scheffler-Straße" hausnr="5" plz="50679" Ort="Köln" stadtteil="Kalk" kreis="Köln" land="DE" latitude="50.940991" longitude="6.992267" standortbeschreibung="Die Ladesäule befindet sich auf dem Kundenparkplatz des ADAC." webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung" betreiber="RheinEnergie AG" betreiberid="REK" partner="Allgemeine Deutsche Automobil-Club e. V" stoerhotline="0221 34645600" oeffnungszeiten="Während der Geschäftszeiten des ADAC öffentlich zugänglich." zweiviersieben="false">
+    <station evse_ID="DEREKE00025" ID="10085" status="In Betrieb" inbetriebnahme="30.08.2016" fahrzeugklasse="Vierrad" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00025002" lage="links" access="Halböffentlich" sms_id="25L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00025001" lage="rechts" access="Halböffentlich" sms_id="25R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - HWK Fortbildungszentrum" kurzbezeichnung="HWK02" strasse="Köhlstraße" hausnr="8" plz="50827" Ort="Köln" stadtteil="Ossendorf" kreis="Köln" land="DE" latitude="50.975525" longitude="6.897439" webseite="http://www.rheinenergie.com/TankEn" kommentar="Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung" betreiber="RheinEnergie AG" betreiberid="REK" partner="Handwerkskammer zu Köln" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00090" ID="00090" status="In Betrieb" inbetriebnahme="10.02.2015" fahrzeugklasse="Vierrad" gelaende="Parkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00090002" lage="links" access="Halböffentlich" sms_id="90L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00090001" lage="rechts" access="Halböffentlich" sms_id="90R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - RVK Köln" kurzbezeichnung="RVK01" strasse="Theodor-Heuss-Ring" hausnr="19-21" plz="50668" Ort="Köln" stadtteil="Altstadt-Nord" kreis="Köln" land="DE" latitude="50.951163" longitude="6.964331" hoehe="54" anfahrtsbeschreibung="Zufahrt über Sedanstraße " webseite="http://www.rheinenergie.com/TankEn" kommentar="Zwei Ladepunkte auf Nachfrage nutzbar; Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung " betreiber="RheinEnergie AG" betreiberid="REK" partner="RVK Regionalverkehr Köln GmbH" stoerhotline="0221 34645600" oeffnungszeiten="Mo. - Fr. 08:00 - 16:30 Uhr; Sa., So. und Feiertags geschlossen " zweiviersieben="false">
+    <station evse_ID="DEREKE00021" ID="00021" status="In Betrieb" inbetriebnahme="08.10.2013" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00021002" lage="links" access="Halböffentlich" sms_id="21L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00021001" lage="rechts" access="Halböffentlich" sms_id="21R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Gicom Overath" kurzbezeichnung="GIC01" strasse="Propsteistraße " hausnr="21" plz="51491" Ort="Overath" kreis="Rheinisch-Bergischer Kreis" land="DE" latitude="50.930353" longitude="7.283992" standortbeschreibung="Erste Parkplatzreihe auf dem Besucherparkplatz. Nur ein Ladepunkt steht öffentlich zur Verfügung." webseite="http://www.rheinenergie.com/TankEn" kommentar="Nur ein Ladepunkt ist öffentlich verfügbar. Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung" betreiber="RheinEnergie AG" betreiberid="REK" partner="gicom GmbH" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00097" ID="99995" status="In Betrieb" inbetriebnahme="07.09.2015" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00097001" lage="rechts" access="Halböffentlich">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Kreishaus Heidkamp" kurzbezeichnung="KHH01" strasse="Am Rübezahlwald " hausnr="7" plz="51469" Ort="Bergisch Gladbach " kreis="Rheinisch-Bergischer Kreis" land="DE" latitude="50.97695" longitude="7.143299" standortbeschreibung="Die Ladestation befindet sich auf dem Parkplatz des Kreishauses." webseite="http://www.rheinenergie.com/TankEn" betreiber="RheinEnergie AG" betreiberid="REK" partner="Rheinisch-Bergischer-Kreis" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00082" ID="99998" status="In Betrieb" inbetriebnahme="29.10.2015" fahrzeugklasse="Vierrad" gelaende="Parkplatz" parkgebuehren="kostenlos" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00082002" lage="links" access="Halböffentlich" sms_id="82L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00082001" lage="rechts" access="Halböffentlich" sms_id="82R">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="Schiffs-TankE - Rheinauhafen 6" kurzbezeichnung="ST006" strasse="Anna-Schneider-Steig (Laura-Oelbermann-Promenade)" hausnr="1" plz="50678" Ort="Köln" stadtteil="Altstadt-Süd" land="DE" latitude="50.925614" longitude="6.967102" webseite="http://www.rheinenergie.com/landstrom" betreiber="RheinEnergie AG" betreiberid="REK" partner="Häfen und Güterverkehr Köln AG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE50006" ID="50006" status="In Betrieb" inbetriebnahme="26.01.2015" fahrzeugklasse="Landstrom" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="false">
+      <ladepunkte anz="1">
+        <ladepunkt evse_ID="DEREKE50006001" access="Öffentlich" sms_id="L6">
+          <stecker steckerart="CEE Rot 63A" amp="63" volt="400" phases="AC3" max_leistung="43" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 32A" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 16A" amp="16" volt="400" phases="AC3" max_leistung="11" festeskabel="false" verriegelung="false"/>
+          <zugang zugangart_1="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="Schiffs-TankE - Rheinauhafen 11" kurzbezeichnung="ST011" strasse="Im Zollhafen (Auf der Hansewerft)" hausnr="hinter 1" plz="50678" Ort="Köln" stadtteil="Altstadt-Süd" land="DE" latitude="50.93057" longitude="6.965153" webseite="http://www.rheinenergie.com/landstrom" kommentar="Nur für die Landstromversorgung von Frachtschiffen." betreiber="RheinEnergie AG" betreiberid="REK" partner="Häfen und Güterverkehr Köln AG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE50011" ID="50011" status="In Betrieb" inbetriebnahme="07.04.2015" fahrzeugklasse="Landstrom" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="false">
+      <ladepunkte anz="1">
+        <ladepunkt evse_ID="DEREKE50011001" access="Öffentlich" sms_id="L11">
+          <stecker steckerart="CEE Rot 63A" amp="63" volt="400" phases="AC3" max_leistung="43" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 16A" amp="16" volt="400" phases="AC3" max_leistung="11" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 32A" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="false"/>
+          <zugang zugangart_1="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="Schiffs-TankE - Rheinauhafen 4" kurzbezeichnung="ST004" strasse="Elisabeth-Treskow-Platz" hausnr="neben 2" plz="50678" Ort="Köln" stadtteil="Altstadt-Süd" land="DE" latitude="50.922767" longitude="6.968329" webseite="http://www.rheinenergie.com/landstrom" betreiber="RheinEnergie AG" betreiberid="REK" partner="Häfen und Güterverkehr Köln AG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE50004" ID="50004" status="In Betrieb" inbetriebnahme="16.04.2015" fahrzeugklasse="Landstrom" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="false">
+      <ladepunkte anz="1">
+        <ladepunkt evse_ID="DEREKE50004001" access="Öffentlich" sms_id="L4">
+          <stecker steckerart="CEE Rot 63A" amp="63" volt="400" phases="AC3" max_leistung="43" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 32A" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 16A" amp="16" volt="400" phases="AC3" max_leistung="11" festeskabel="false" verriegelung="false"/>
+          <zugang zugangart_1="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="Schiffs-TanKE - Rheinauhafen 3" kurzbezeichnung="ST003" strasse="Agrippinawerft (Katharina-Schauberg-Promenade)" hausnr="hinter 8" plz="50678" Ort="Köln" stadtteil="Altstadt-Süd" land="DE" latitude="50.922128" longitude="6.968619" webseite="http://www.rheinenergie.com/landstrom" betreiber="RheinEnergie AG" betreiberid="REK" partner="Häfen und Güterverkehr Köln AG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE50003" ID="50003" status="In Betrieb" inbetriebnahme="16.04.2015" fahrzeugklasse="Landstrom" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="false">
+      <ladepunkte anz="1">
+        <ladepunkt evse_ID="DEREKE50003001" access="Öffentlich" sms_id="L3">
+          <stecker steckerart="CEE Rot 63A" amp="63" volt="400" phases="AC3" max_leistung="43" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 32A" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 16A" amp="16" volt="400" phases="AC3" max_leistung="11" festeskabel="false" verriegelung="false"/>
+          <zugang zugangart_1="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="Schiffs-TankE - Rheinauhafen 2" kurzbezeichnung="ST002" strasse="Agrippinawerft (Katharina-Schauberg-Promenade)" hausnr="hinter 22" plz="50678" Ort="Köln" stadtteil="Altstadt-Süd" land="DE" latitude="50.920538" longitude="6.969376" webseite="http://www.rheinenergie.com/landstrom" betreiber="RheinEnergie AG" betreiberid="REK" partner="Häfen und Güterverkehr Köln AG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE50002" ID="50002" status="In Betrieb" inbetriebnahme="17.04.2015" fahrzeugklasse="Landstrom" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="false">
+      <ladepunkte anz="1">
+        <ladepunkt evse_ID="DEREKE50002001" access="Öffentlich" sms_id="L2">
+          <stecker steckerart="CEE Rot 63A" amp="63" volt="400" phases="AC3" max_leistung="43" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 32A" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 16A" amp="16" volt="400" phases="AC3" max_leistung="11" festeskabel="false" verriegelung="false"/>
+          <zugang zugangart_1="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - REWE Richrath" kurzbezeichnung="REWE1" strasse="Zum Komarhof" hausnr="1" plz="50354" Ort="Hürth" stadtteil="Efferen " kreis="Rhein-Erft-Kreis" land="DE" latitude="50.895018" longitude="6.903977" standortbeschreibung="Die Ladestation befindet sich auf dem Besucherparkplatz von REWE Richrath. Bitte beachten Sie die Öffnungszeiten." webseite="www.tanke.info" kommentar="Registrierung nötig unter www.tanke.info/registrierung" betreiber="RheinEnergie AG" betreiberid="REK" partner="REWE Richrath Supermärkte GmbH + Co. OHG" stoerhotline="0221 34645600" oeffnungszeiten="Montag - Freitag 07:00 Uhr - 23:00 Uhr Samstag 07:00 Uhr - 22:00 Uhr  Sonntag: geschlossen" zweiviersieben="false">
+    <station evse_ID="DEREKE00083" ID="10075" status="In Betrieb" inbetriebnahme="26.04.2016" fahrzeugklasse="Vierrad" gelaende="Besucherparkplatz" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00083002" lage="links" access="Halböffentlich" sms_id="83L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00083001" lage="rechts" access="Halböffentlich" sms_id="83R">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Auto Laukat" kurzbezeichnung="ALAU1" strasse="Siegburgerstraße " hausnr="232-238" plz="51105" Ort="Köln" stadtteil="Poll" kreis="Köln" land="DE" latitude="50.92041" longitude="6.984919" anfahrtsbeschreibung="Der Standort befindet sich gut sichtbar in unmittelbarer Nähe zur Siegburger Straße. Es handelt sich um zwei öffentlich zugängliche Wandladestationen." webseite="https://www.tanke.info" kommentar="Registrierung nötig unter https://www.tanke.info/registrierung" betreiber="RheinEnergie AG" betreiberid="REK" partner="Auto Laukat KG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00103" ID="10080" status="In Betrieb" fahrzeugklasse="Vierrad" hersteller="Mennekes" montageart="Wandladestation" oekostrom="true">
+      <ladepunkte anz="1">
+        <ladepunkt evse_ID="DEREKE00103003" lage="rechts" access="Halböffentlich" sms_id="103R">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+    <station evse_ID="DEREKE00104" ID="10081" status="In Betrieb" fahrzeugklasse="Vierrad" hersteller="Mennekes" montageart="Wandladestation" oekostrom="true">
+      <ladepunkte anz="1">
+        <ladepunkt evse_ID="DEREKE00104003" lage="links" access="Halböffentlich" sms_id="104L">
+          <stecker steckerart="Schuko" amp="13" volt="230" phases="AC1" max_leistung="3" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Landschaftsverband Rheinland" kurzbezeichnung="LVR01" strasse="Ottoplatz " hausnr="2" plz="50679" Ort="Köln" stadtteil="Deutz" kreis="Köln" land="DE" latitude="50.939649" longitude="6.974059" anfahrtsbeschreibung="Zufahrt erfolgt über die Schranke. Bitte beim Pförtner klingeln. Dieser ist rund um die Uhr erreichbar." standortbeschreibung="Die Ladestation befindet sich auf dem Kundenparkplatz des LVR direkt am Ottoplatz." webseite="http://www.rheinenergie.com/TankEn" betreiber="RheinEnergie AG" betreiberid="REK" partner="Landschaftsverband Rheinland" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00098" ID="99993" status="In Betrieb" inbetriebnahme="19.10.2015" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" parkgebuehren="kostenlos" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00098002" lage="links" access="Halböffentlich" sms_id="98L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00098001" lage="rechts" access="Halböffentlich" sms_id="98R">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="Schiffs-TankE - Rheinauhafen 10" kurzbezeichnung="ST010" strasse="Im Zollhafen (Auf der Hansawerft)" hausnr="12" plz="50678" Ort="Köln" stadtteil="Altstadt-Süd" land="DE" latitude="50.929066" longitude="6.965722" webseite="http://www.rheinenergie.com/landstrom" betreiber="RheinEnergie AG" betreiberid="REK" partner="Häfen und Güterverkehr Köln AG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE50010" ID="50010" status="In Betrieb" inbetriebnahme="07.04.2015" fahrzeugklasse="Landstrom" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="false">
+      <ladepunkte anz="1">
+        <ladepunkt evse_ID="DEREKE50010001" access="Öffentlich" sms_id="L10">
+          <stecker steckerart="CEE Rot 63A" amp="63" volt="400" phases="AC3" max_leistung="43" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 32A" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 16A" amp="16" volt="400" phases="AC3" max_leistung="11" festeskabel="false" verriegelung="false"/>
+          <zugang zugangart_1="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="Schiffs-TankE - Rheinauhafen 9" kurzbezeichnung="ST009" strasse="Im Zollhafen (Auf der Hansawerft)" hausnr="12" plz="50678" Ort="Köln" stadtteil="Altstadt-Süd" land="DE" latitude="50.928654" longitude="6.965899" webseite="http://www.rheinenergie.com/landstrom" betreiber="RheinEnergie AG" betreiberid="REK" partner="Häfen und Güterverkehr Köln AG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE50009" ID="50009" status="In Betrieb" inbetriebnahme="07.04.2015" fahrzeugklasse="Landstrom" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="false">
+      <ladepunkte anz="1">
+        <ladepunkt evse_ID="DEREKE50009001" access="Öffentlich" sms_id="L9">
+          <stecker steckerart="CEE Rot 63A" amp="63" volt="400" phases="AC3" max_leistung="43" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 32A" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 16A" amp="16" volt="400" phases="AC3" max_leistung="11" festeskabel="false" verriegelung="false"/>
+          <zugang zugangart_1="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="Schiffs-TankE - Rheinauhafen 8" kurzbezeichnung="ST008" strasse="Im Zollhafen (Auf der Hansawerft)" hausnr="hinter 15" plz="50678" Ort="Köln" stadtteil="Altstadt-Süd" land="DE" latitude="50.927058" longitude="6.966489" webseite="http://www.rheinenergie.com/landstrom" betreiber="RheinEnergie " betreiberid="REK" partner="Häfen und Güterverkehr Köln AG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE50008" ID="50008" status="In Betrieb" inbetriebnahme="07.04.2015" fahrzeugklasse="Landstrom" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="false">
+      <ladepunkte anz="1">
+        <ladepunkt evse_ID="DEREKE50008001" access="Öffentlich" sms_id="L8">
+          <stecker steckerart="CEE Rot 63A" amp="63" volt="400" phases="AC3" max_leistung="43" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 32A" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 16A" amp="16" volt="400" phases="AC3" max_leistung="11" festeskabel="false" verriegelung="false"/>
+          <zugang zugangart_1="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="Schiffs-TankE - Rheinauhafen 7" kurzbezeichnung="ST007" strasse="Im Zollhafen (auf der Hansawerft)" hausnr="24" plz="50678" Ort="Köln" stadtteil="Altstadt-Süd" land="DE" latitude="50.925871" longitude="6.966967" webseite="http://www.rheinenergie.com/landstrom" betreiber="RheinEnergie AG" betreiberid="REK" partner="Häfen und Güterverkehr Köln AG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE50007" ID="50007" status="In Betrieb" inbetriebnahme="17.04.2015" fahrzeugklasse="Landstrom" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="false">
+      <ladepunkte anz="1">
+        <ladepunkt evse_ID="DEREKE50007001" access="Öffentlich" sms_id="L7">
+          <stecker steckerart="CEE Rot 63A" amp="63" volt="400" phases="AC3" max_leistung="43" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 32A" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 16A" amp="16" volt="400" phases="AC3" max_leistung="11" festeskabel="false" verriegelung="false"/>
+          <zugang zugangart_1="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="Schiffs-TankE - Rheinauhafen 5" kurzbezeichnung="ST005" strasse="Anna-Schneider-Steig (Laura-Oelbermann-Promenade)" hausnr="13" plz="50678" Ort="Köln" stadtteil="Altstadt-Süd" land="DE" latitude="50.923876" longitude="6.967857" webseite="http://www.rheinenergie.com/landstrom" betreiber="RheinEnergie AG" betreiberid="REK" partner="Häfen und Güterverkehr Köln AG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE50005" ID="50005" status="In Betrieb" inbetriebnahme="17.04.2015" fahrzeugklasse="Landstrom" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="false">
+      <ladepunkte anz="1">
+        <ladepunkt evse_ID="DEREKE50005001" access="Öffentlich" sms_id="L5">
+          <stecker steckerart="CEE Rot 63A" amp="63" volt="400" phases="AC3" max_leistung="43" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 32A" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 16A" amp="16" volt="400" phases="AC3" max_leistung="11" festeskabel="false" verriegelung="false"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Volkswagen Zentrum Europaplatz Aachen" kurzbezeichnung="VWAAC" strasse="Europaplatz" hausnr="10" plz="52068" Ort="Aachen" stadtteil="Nord" kreis="Aachen" land="DE" latitude="50.779498" longitude="6.106563" webseite="http://www.rheinenergie.com/TankEn" kommentar="Für den Notfall ist eine RFID-Karte beim Autohaus hinterlegt. Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung" betreiber="RheinEnergie AG" betreiberid="REK" partner="Autohaus Jacob Fleischhauer GmbH &amp; Co. KG" stoerhotline="0221 34645600" oeffnungszeiten="Mo. - Fr. 07:15 - 18:30 Uhr; Sa. 8:00 - 14:00 Uhr" zweiviersieben="false">
+    <station evse_ID="DEREKE00061" ID="00061" status="In Betrieb" inbetriebnahme="24.03.2014" fahrzeugklasse="Vierrad" gelaende="Firmenparkplatz" parkgebuehren="kostenlos" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00061002" lage="links" access="Halböffentlich" sms_id="61L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00061001" lage="rechts" access="Halböffentlich" sms_id="61R">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - ERGO" kurzbezeichnung="ERGO1" strasse="Scheidtweilerstraße" hausnr="38" plz="50933" Ort="Köln" stadtteil="Braunsfeld" kreis="Köln" land="DE" latitude="50.937905" longitude="6.90728" webseite="http://www.rheinenergie.com/TankEn" betreiber="RheinEnergie AG" betreiberid="REK" partner="ERGO Versicherungsgruppe AG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00046" ID="10086" status="In Betrieb" inbetriebnahme="20.09.2016" fahrzeugklasse="Vierrad" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00046002" lage="links" access="Halböffentlich" sms_id="46L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00046001" lage="rechts" access="Halböffentlich" sms_id="46R">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Schloss Miel" kurzbezeichnung="SLM01" strasse="Schlossallee" hausnr="1" plz="53913" Ort="Swisttal" stadtteil="Miel" kreis="Rhein-Sieg-Kreis" land="DE" latitude="50.668921" longitude="6.915035" standortbeschreibung="Erste Parkplatzreihe auf dem Besucherparkplatz des Golf-Club Schloss Miel. Nur ein Ladepunkt steht öffentlich zur Verfügung." webseite="http://www.rheinenergie.com/TankEn" kommentar="Nur Ladepunkt 68L ist öffentlich verfügbar. Registrierung nötig unter www.rheinenergie.com/TankEn-Registrierung" betreiber="RheinEnergie AG" betreiberid="REK" partner="Golf-Club Schloss Miel GmbH" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00068" ID="00068" status="In Betrieb" inbetriebnahme="16.04.2015" fahrzeugklasse="Vierrad" gelaende="Parkplatz" parkgebuehren="kostenlos" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00068002" lage="links" access="Halböffentlich" sms_id="68L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="Schiffs-TankE - Rheinauhafen 12" kurzbezeichnung="ST012" strasse="Agrippinawerft (Katharina-Schauberg-Promenade)" hausnr="hinter 26" plz="50678" Ort="Köln" stadtteil="Altstadt-Süd" land="DE" latitude="50.919899" longitude="6.969681" webseite="http://www.rheinenergie.com/landstrom" betreiber="RheinEnergie AG" betreiberid="REK" partner="Häfen und Güterverkehr Köln AG" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE50001" ID="50001" status="In Betrieb" inbetriebnahme="02.09.2015" fahrzeugklasse="Landstrom" hersteller="EBG complEo GmbH" montageart="Ladesäule freistehend" oekostrom="false">
+      <ladepunkte anz="1">
+        <ladepunkt evse_ID="DEREKE50001001" access="Öffentlich" sms_id="L1">
+          <stecker steckerart="CEE Rot 63A" amp="63" volt="400" phases="AC3" max_leistung="43" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 32A" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="false"/>
+          <stecker steckerart="CEE Rot 16A" amp="16" volt="400" phases="AC3" max_leistung="11" festeskabel="false" verriegelung="false"/>
+          <zugang zugangart_1="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+  <standort name="TankE - Bertrandt Köln 2" kurzbezeichnung="BRTR2" strasse="Oskar-Schindler-Straße" hausnr="10" plz="50769" Ort="Köln" stadtteil="Merkenich" kreis="Köln" land="DE" latitude="51.033628" longitude="6.918907" webseite="https://www.tanke.info" betreiber="RheinEnergie AG" betreiberid="REK" partner="Bertrandt Ingenieur-Büro GmbH" stoerhotline="0221 34645600" zweiviersieben="true">
+    <station evse_ID="DEREKE00048" ID="10087" status="In Betrieb" inbetriebnahme="13.09.2016" fahrzeugklasse="Vierrad" hersteller="Mennekes" montageart="Ladesäule freistehend" oekostrom="true">
+      <ladepunkte anz="2">
+        <ladepunkt evse_ID="DEREKE00048002" lage="links" access="Halböffentlich" sms_id="48L">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+        <ladepunkt evse_ID="DEREKE00048001" lage="rechts" access="Halböffentlich" sms_id="48R">
+          <stecker steckerart="Typ 2" amp="32" volt="400" phases="AC3" max_leistung="22" festeskabel="false" verriegelung="true"/>
+          <zugang zugangart_1="RFID" zugangart_2="SMS"/>
+        </ladepunkt>
+      </ladepunkte>
+    </station>
+  </standort>
+</ladestationen>
