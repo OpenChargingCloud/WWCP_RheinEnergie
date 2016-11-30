@@ -10,9 +10,11 @@ var RheinEnergieCSO  = RheinEnergieRN.CreateNewChargingStationOperator(
                            I18NString.Create(Languages.de, "RheinEnergie AG"),
                            Configurator: cso => {
                                cso.Homepage = "http://www.rheinenergie.com/TankEn";
-                           });
+                           }
+                       );
 
-RheinEnergieAPI.ParseRheinEnergieXML(XDocument.Load("Ladestationen_2016-11-29.xml").Root, RheinEnergieCSO);
+RheinEnergieAPI.ParseRheinEnergieXML(XDocument.Load("Ladestationen_2016-11-29.xml").Root,
+                                     RheinEnergieCSO);
 
 var GeoJSON = RheinEnergieCSO.ChargingPools.ToFeatureCollection().ToString();
 ```    
