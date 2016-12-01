@@ -127,68 +127,115 @@ namespace org.GraphDefined.WWCP.ExternalAPIs.RheinEnergie
 
             #endregion
 
-            ChargingPool pool;
+            ChargingPool     pool;
             ChargingStation  station;
             EVSE             evse;
 
-            foreach (var Standort in XML.Elements("standort"))
+            foreach (var StandortXML in XML.Elements("standort"))
             {
 
                 #region Create new charging pool
 
-                pool = Operator.CreateChargingPool(ChargingPool_Id.Parse(Operator.Id, Standort.Attribute("kurzbezeichnung").Value.Trim()),
+                pool = Operator.CreateChargingPool(ChargingPool_Id.Parse(Operator.Id, StandortXML.Attribute("kurzbezeichnung").Value.Trim()),
                                                    Configurator: newpool => {
 
-                                                       newpool.BrandName            = Standort.MapAttributeValueOrDefault("partner",
-                                                                                                                          value => I18NString.Create(Languages.de, value.Trim()));
+                                                       newpool.BrandName            = StandortXML.MapAttributeValueOrDefault("partner",
+                                                                                                                             value => I18NString.Create(Languages.de, value.Trim()));
 
-                                                       newpool.Description          = Standort.MapAttributeValueOrDefault("standortbeschreibung",
-                                                                                                                          value => I18NString.Create(Languages.de, value.Trim()));
+                                                       newpool.Description          = StandortXML.MapAttributeValueOrDefault("standortbeschreibung",
+                                                                                                                             value => I18NString.Create(Languages.de, value.Trim()));
 
-                                                       newpool.ArrivalInstructions  = Standort.MapAttributeValueOrDefault("anfahrtsbeschreibung",
-                                                                                                                          value => I18NString.Create(Languages.de, value.Trim()));
+                                                       newpool.ArrivalInstructions  = StandortXML.MapAttributeValueOrDefault("anfahrtsbeschreibung",
+                                                                                                                             value => I18NString.Create(Languages.de, value.Trim()));
 
                                                        newpool.GeoLocation          = GeoCoordinate.Create(
-                                                                                          Latitude. Parse(Standort.Attribute("latitude"). Value.Trim()),
-                                                                                          Longitude.Parse(Standort.Attribute("longitude").Value.Trim())
+                                                                                          Latitude. Parse(StandortXML.Attribute("latitude"). Value.Trim()),
+                                                                                          Longitude.Parse(StandortXML.Attribute("longitude").Value.Trim())
                                                                                       );
 
                                                        newpool.Address              = Address.Create(
-                                                                                          Standort.MapAttributeValueOrDefault("land",    value => Country.Parse(value.Trim())),
-                                                                                          Standort.MapAttributeValueOrDefault("plz",     value => value.Trim()),
-                                                                                          Standort.MapAttributeValueOrDefault("Ort",     value => I18NString.Create(Languages.de, value.Trim())),
-                                                                                          Standort.MapAttributeValueOrDefault("strasse", value => value.Trim()),
-                                                                                          Standort.MapAttributeValueOrDefault("hausnr",  value => value.Trim())
+                                                                                          StandortXML.MapAttributeValueOrDefault("land",    value => Country.Parse(value.Trim())),
+                                                                                          StandortXML.MapAttributeValueOrDefault("plz",     value => value.Trim()),
+                                                                                          StandortXML.MapAttributeValueOrDefault("Ort",     value => I18NString.Create(Languages.de, value.Trim())),
+                                                                                          StandortXML.MapAttributeValueOrDefault("strasse", value => value.Trim()),
+                                                                                          StandortXML.MapAttributeValueOrDefault("hausnr",  value => value.Trim())
                                                                                       );
 
-                                                       newpool.OpeningTimes         = Standort.MapAttributeValueOrDefault("zweiviersieben",
-                                                                                                                          value => value == "true"
-                                                                                                                              ? OpeningTimes.Open24Hours
-                                                                                                                              : null);
+                                                       newpool.OpeningTimes         = StandortXML.MapAttributeValueOrDefault("zweiviersieben",
+                                                                                                                             value => value == "true"
+                                                                                                                                 ? OpeningTimes.Open24Hours
+                                                                                                                                 : null);
 
                                                       });
 
                 #endregion
 
-                foreach (var Station in Standort.Elements("station"))
+                foreach (var StationXML in StandortXML.Elements("station"))
                 {
 
                     #region Create new charging station
 
-                    station = pool.CreateChargingStation(ChargingStation_Id.Parse(Operator.Id, Station.Attribute("evse_ID").Value));
+                    station = pool.CreateChargingStation(ChargingStation_Id.Parse(Operator.Id, StationXML.Attribute("evse_ID").Value),
+                                                         Configurator: newstation => {
+
+                                                             newstation.AdminStatus = StationXML.MapAttributeValueOrDefault("status", value => {
+
+                                                                                          switch (value)
+                                                                                          {
+
+                                                                                              case "In Betrieb":
+                                                                                                  return ChargingStationAdminStatusTypes.Operational;
+
+                                                                                              default:
+                                                                                                  return ChargingStationAdminStatusTypes.Unspecified;
+
+                                                                                          }
+
+                                                                                      });
+
+                                                         });
 
                     #endregion
 
-                    foreach (var Ladepunkt in Station.Element("ladepunkte").Elements("ladepunkt"))
+                    foreach (var LadepunktXML in StationXML.Element("ladepunkte").Elements("ladepunkt"))
                     {
 
                         #region Create new EVSE
 
-                        evse = station.CreateEVSE(EVSE_Id.Parse(Operator.Id, Ladepunkt.Attribute("evse_ID").Value));
+                        evse = station.CreateEVSE(EVSE_Id.Parse(Operator.Id, LadepunktXML.Attribute("evse_ID").Value),
+                                                  Configurator: newevse => {
 
-                        var zugänge = Ladepunkt.Element("zugang") != null
+                                                      newevse.SocketOutlets = new ReactiveSet<SocketOutlet>(LadepunktXML.
+                                                                                                                Elements("stecker").
+                                                                                                                Select(SteckerXML => new SocketOutlet(
 
-                                          ? Ladepunkt.Element("zugang").Attributes().
+                                                                                                                    SteckerXML.MapAttributeValueOrFail("steckerart",
+                                                                                                                        value =>
+                                                                                                                        {
+
+                                                                                                                            var FestesKabel = SteckerXML.MapAttributeValueOrFail("festeskabel",
+                                                                                                                                                                                 value2 => value2 == "true");
+
+                                                                                                                            if (value == "Typ 2" && FestesKabel)
+                                                                                                                                return PlugTypes.Type2Connector_CableAttached;
+
+                                                                                                                            if (value == "Typ 2" && !FestesKabel)
+                                                                                                                                return PlugTypes.Type2Outlet;
+
+                                                                                                                            return PlugTypes.Unspecified;
+
+                                                                                                                        }),
+
+                                                                                                                    SteckerXML.MapAttributeValueOrFail("verriegelung", value2 => value2 == "true"),
+                                                                                                                    SteckerXML.MapAttributeValueOrFail("festeskabel",  value2 => value2 == "true")
+
+                                                                                                                )));
+
+                                                  });
+
+                        var zugänge = LadepunktXML.Element("zugang") != null
+
+                                          ? LadepunktXML.Element("zugang").Attributes().
                                                 Where (attr => attr.Name.LocalName.StartsWith("zugangart_", StringComparison.Ordinal)).
                                                 Select(attr => attr.Value).ToArray()
 
