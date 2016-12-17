@@ -139,14 +139,17 @@ namespace org.GraphDefined.WWCP.ExternalAPIs.RheinEnergie
                 pool = Operator.CreateChargingPool(ChargingPool_Id.Parse(Operator.Id, StandortXML.Attribute("kurzbezeichnung").Value.Trim()),
                                                    Configurator: newpool => {
 
-                                                       newpool.BrandName            = StandortXML.MapAttributeValueOrDefault("partner",
-                                                                                                                             value => I18NString.Create(Languages.de, value.Trim()));
+                                                       newpool.Brand                = StandortXML.MapAttributeValueOrDefault("partner",
+                                                                                                                             value => new Brand(
+                                                                                                                                          Brand_Id.Parse(value.Trim()),
+                                                                                                                                          I18NString.Create(Languages.deu, value.Trim())
+                                                                                                                                      ));
 
                                                        newpool.Description          = StandortXML.MapAttributeValueOrDefault("standortbeschreibung",
-                                                                                                                             value => I18NString.Create(Languages.de, value.Trim()));
+                                                                                                                             value => I18NString.Create(Languages.deu, value.Trim()));
 
                                                        newpool.ArrivalInstructions  = StandortXML.MapAttributeValueOrDefault("anfahrtsbeschreibung",
-                                                                                                                             value => I18NString.Create(Languages.de, value.Trim()));
+                                                                                                                             value => I18NString.Create(Languages.deu, value.Trim()));
 
                                                        newpool.GeoLocation          = GeoCoordinate.Create(
                                                                                           Latitude. Parse(StandortXML.Attribute("latitude"). Value.Trim()),
@@ -156,7 +159,7 @@ namespace org.GraphDefined.WWCP.ExternalAPIs.RheinEnergie
                                                        newpool.Address              = Address.Create(
                                                                                           StandortXML.MapAttributeValueOrDefault("land",    value => Country.Parse(value.Trim())),
                                                                                           StandortXML.MapAttributeValueOrDefault("plz",     value => value.Trim()),
-                                                                                          StandortXML.MapAttributeValueOrDefault("Ort",     value => I18NString.Create(Languages.de, value.Trim())),
+                                                                                          StandortXML.MapAttributeValueOrDefault("Ort",     value => I18NString.Create(Languages.deu, value.Trim())),
                                                                                           StandortXML.MapAttributeValueOrDefault("strasse", value => value.Trim()),
                                                                                           StandortXML.MapAttributeValueOrDefault("hausnr",  value => value.Trim())
                                                                                       );
